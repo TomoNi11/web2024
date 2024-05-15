@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <script>
+function DeG() {
+  if (入力内容.value === "") {
+    alert("内容がないようです");
+  } else {
+    伝言エリア.innerText = 入力内容.value;
+    //alert("伝言をセットしました");
+    入力内容.value = "";
+  }
+}
+</script>
+</head>
+
+<body>
+  伝言板
+  <p id="伝言エリア"></p>
+
+  <input id="入力内容"> <button onclick="DeG();">決定</button>
+</body>
+
+</html>
+
